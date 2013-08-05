@@ -6,7 +6,6 @@ Description: Turns your WordPress posts into reveal.js powered presentations.
 Version: 0.1
 Author: Jan Beck
 Author Email: mail@jancbeck.com
-License: MIT
   
 */
 
