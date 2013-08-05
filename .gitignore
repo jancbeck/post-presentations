@@ -18,11 +18,6 @@ Thumbs.db
 .settings
 .tmproj
 *.esproj
-/css
+/wp-release
 *.sublime-workspace
-
-WP-Boilerplate.sublime-workspace
-
-WP-Boilerplate-Theme.sublime-project
-
 *.sublime-project
