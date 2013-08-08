@@ -3,7 +3,7 @@
 Plugin Name: Post Presentations
 Plugin URI: http://jancbeck.com
 Description: Turns your WordPress posts into reveal.js powered presentations.
-Version: 0.1
+Version: 0.2-dev
 Author: Jan Beck
 Author Email: mail@jancbeck.com
   
