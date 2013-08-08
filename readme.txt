@@ -24,7 +24,7 @@ Future updates may include:
 - More options to the settings page.
 - Individual settings for each post.
 - More support for reveal.jus features (e.g. PDF export)
-- Perhaps getting rid of the `<!--nextslide-->` tag by auto-splitting on <h2> headings?
+- Perhaps getting rid of the `<!--nextslide-->` tag by auto-splitting on h2 headings?
 
 More ideas? Post them to the support forum!
 
