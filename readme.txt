@@ -57,7 +57,6 @@ This comes with the disadvantage of lesser features though. E.g. vertical slides
 = 0.1 =
 Initial version
 
-== Upgrade Notice ==
-
-= 0.1 =
-Initial version
+= 0.2 =
+- [FIXED] The active theme setting is now saved correctly.
+- [FIXED] Permalinks are being flushed now on plugin activation to avoid 404 errors.
