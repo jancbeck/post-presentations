@@ -11,7 +11,7 @@ Turns your WordPress posts into reveal.js powered presentations.
 
 == Description ==
 
-This plugin is intended to create simple slideshow presentations from the WordPress posts. It is inspired from the [Slides theme be Otto](ottopress.com/2013/slides-a-presentation-theme/) but rather than turning your whole blog into one slideshow this plugin simply adds an alternative display mode for each posts. 
+This plugin is intended to create simple slideshow presentations from the WordPress posts. It is inspired from the [Slides theme be Otto](http://ottopress.com/2013/slides-a-presentation-theme/) but rather than turning your whole blog into one slideshow this plugin simply adds an alternative display mode for each posts. 
 
 Place `<!--nextslide-->` in your posts to split your posts into individual slides.
 
