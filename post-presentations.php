@@ -368,14 +368,14 @@ class PostPresentations {
 		);
 
 	 	add_settings_field( 
-	 		'post_presentations' . '_looks_theme',
+	 		'post_presentations' . '_looks_active_theme',
 			__( 'Active theme' ),
 			array( $this, 'settings_field_select' ),
 			'post_presentations',
 			'post_presentations' . '_looks',
 			array( 
 				'section' => 'looks',
-				'key' => 'theme',
+				'key' => 'active_theme',
 				'description' => '',
 				'options' => array(
 					'beige',
@@ -510,7 +510,7 @@ class PostPresentations {
 		$html = '';
 
 		$html .= '<link rel="stylesheet" href="'. plugins_url( 'reveal.js/css/reveal.min.css' , __FILE__) .'" />';
-		$html .= '<link rel="stylesheet" href="'. plugins_url( 'reveal.js/css/theme/'. $options['theme'] .'.css' , __FILE__) .'" id="theme" />';
+		$html .= '<link rel="stylesheet" href="'. plugins_url( 'reveal.js/css/theme/'. $options['active_theme'] .'.css' , __FILE__) .'" id="theme" />';
 		$html .= '<style>.reveal section img { height: auto; }</style>'; // maintain aspect ratio of images
 
 		echo $html;
