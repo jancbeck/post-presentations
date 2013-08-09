@@ -111,6 +111,10 @@ class PostPresentations {
 	 * Runs when the plugin is activated
 	 */  
 	function install_post_presentations() {
+
+		global $wp_rewrite;
+		$wp_rewrite->flush_rules();
+
 		add_option( 'post_presentations', $this->default_options );
 	}
   
